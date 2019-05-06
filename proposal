@@ -1,0 +1,19 @@
+Project title: Divvy Chicago Bicycle Sharing project
+
+Project goal:
+Predict the daily need of bikes for each divvy station and search for new locations to open a new Divvy Bicycle station.
+
+Data resources:
+Applied data collection from mutiple websites, including divvy bike sharing data, weather of Chicago data, public safety and public transportation in Chicago, and etc. Some of data can be downloaded directly. Others may required API collection or web data scrapping.
+
+Exploratory Data Analysis:
+First, we visualize divvy bikes used over different time periods, analyze data of each trip, including  customer gender, customer age, and etc. Then, we investigate daily bike usage for each station with respect to the geospatical data (such as public transportation availability near  a bike station). Finally, we investigate the correlation between bike usage and weather of that day.
+
+Feature Engineering:
+Merge bike station data with trip data and group the merged data by different dates and stations. Then we add features as follows (but not limited to):
+1. Daily weather features including humidity, temperature, wind speed and etc. 
+2. Safety data for each station, for example number of crime within 1 mile from the bike station over last week. 
+3. Public transportation data, for example the distance between the divvy bike station to the closest bus stop.
+
+Machine/Deep learning models:
+We are going to build regression models using random forest, gradient boost and neural network and compare performance of different models. Regularization for different models will be implemented  to overcome potential overfitting. Amazon Web Services (AWS) will be used to accelerate training process.
