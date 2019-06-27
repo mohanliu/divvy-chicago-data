@@ -1,0 +1,15 @@
+Divvy is Chicago's bike share system, with 580 stations and 5,800 bikes across Chicagoland. 
+It’s a fun, affordable and convenient way to get around. 
+In this effort, I am going to understand how people in Chicago make use of the divvy bikes 
+and build machine learning and deep learning models to predict the number of bikes has been 
+rented or returned for each station during a certain time period (which can be a day or a few hours).  
+Eventually, this project will be beneficial to the Divvy bike company in several ways. 
+Firstly, they will be able to foresee the demand of bikes in a future time for a certain station so that
+they can distribute their bikes accordingly beforehand. 
+Additionally, the model will also be helpful and provide some valuable insights of what locations 
+should the divvy bike company will open up new bike stations. 
+
+The main dataset I will work on is shared by Divvy company with the details of each bike trip for 
+the last past five years, including the start station, destination station, start time, end time and etc. 
+In addition to that, I am also considering collecting external data such as historical weather data in Chicago 
+and special events held in Chicago, since these information might help improve the performance of our model.
