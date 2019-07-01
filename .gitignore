@@ -1,4 +1,6 @@
 data/*
+weather_data/*
+event_data/*
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
