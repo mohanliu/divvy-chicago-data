@@ -1,5 +1,4 @@
-data/*.csv
-data/*.xlsx
+data/*
 weather_data/*.json
 .DS_Store
 
