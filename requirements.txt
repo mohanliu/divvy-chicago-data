@@ -2,3 +2,4 @@ folium
 geojson
 geopandas
 shapley
+geopy
