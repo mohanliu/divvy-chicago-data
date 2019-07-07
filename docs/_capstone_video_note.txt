@@ -1,3 +1,4 @@
+week1
 Divvy is Chicago's bike share system, with 580 stations and 5,800 bikes across Chicagoland. 
 It’s a fun, affordable and convenient way to get around. 
 In this effort, I am going to understand how people in Chicago make use of the divvy bikes 
@@ -13,3 +14,6 @@ The main dataset I will work on is shared by Divvy company with the details of e
 the last past five years, including the start station, destination station, start time, end time and etc. 
 In addition to that, I am also considering collecting external data such as historical weather data in Chicago 
 and special events held in Chicago, since these information might help improve the performance of our model.
+
+week2
+Hi, this is Mohan, I am going to share you with my capston project for the Data Incubator. In this project, I will investigate and explore the bike sharing system in Chicago, which is operated by the Divvy Company. So far there are more than 580 stations located in Chicago area and more than 20 million bike trips in total for the past five years. By utilizating data science tools including machine learning and deep learning, we will be able to predict the number of bikes has been rented or returned for each station during a day.
