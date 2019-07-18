@@ -1,6 +1,6 @@
 <class 'pandas.core.frame.DataFrame'>
 Int64Index: 947515 entries, 0 to 947514
-Data columns (total 65 columns):
+Data columns (total 82 columns):
 lon_ave                                  947515 non-null float64
 lat_ave                                  947515 non-null float64
 dp_max                                   947515 non-null float64
@@ -64,7 +64,24 @@ precipType_sleet                         947515 non-null float64
 precipType_snow                          947515 non-null int64
 temperatureHigh                          947515 non-null float64
 temperatureLow                           947515 non-null float64
-month                                    947515 non-null int64
-dayofweek                                947515 non-null int64
-dtypes: float64(9), int64(9), uint8(47)
-memory usage: 179.8 MB
+month_1                                  947515 non-null uint8
+month_2                                  947515 non-null uint8
+month_3                                  947515 non-null uint8
+month_4                                  947515 non-null uint8
+month_5                                  947515 non-null uint8
+month_6                                  947515 non-null uint8
+month_7                                  947515 non-null uint8
+month_8                                  947515 non-null uint8
+month_9                                  947515 non-null uint8
+month_10                                 947515 non-null uint8
+month_11                                 947515 non-null uint8
+month_12                                 947515 non-null uint8
+dayofweek_0                              947515 non-null uint8
+dayofweek_1                              947515 non-null uint8
+dayofweek_2                              947515 non-null uint8
+dayofweek_3                              947515 non-null uint8
+dayofweek_4                              947515 non-null uint8
+dayofweek_5                              947515 non-null uint8
+dayofweek_6                              947515 non-null uint8
+dtypes: float64(9), int64(7), uint8(66)
+memory usage: 182.5 MB
